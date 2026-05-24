@@ -337,8 +337,6 @@ body {
     display: flex;
     flex-direction: column;
     gap: 20px;
-    position: absolute;
-    top: 5vh;
 }
 
 /* Cards */
