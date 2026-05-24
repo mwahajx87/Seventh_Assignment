@@ -1,0 +1,455 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amazon Navbar Clone</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <base target="_blank">
+</head>
+
+<body> <!-- Header -->
+    <header>
+        <div class="nav">
+            <div class="brand hov">
+                <div class="logo"></div>
+            </div> <button class="theme hov" id="themeBtn" aria-label="Toggle dark mode"> <i
+                    class="fa-solid fa-sun t-ico" id="themeIco"></i> </button>
+            <div class="loc hov"> <i class="fa-solid fa-location-dot pin"></i>
+                <div class="loc-txt">
+                    <p class="sm">Deliver to</p>
+                    <p class="lg">Pakistan</p>
+                </div>
+            </div>
+            <div class="find">
+                <div class="pick"> <select class="pick-sel">
+                        <option>All</option>
+                        <option>Baby</option>
+                        <option>Men's Fashion</option>
+                        <option>Book</option>
+                        <option>Electronics</option>
+                        <option>Luggage</option>
+                    </select> <i class="fa-solid fa-caret-down pick-arr"></i> </div> <input type="text"
+                    placeholder="Search Amazon" class="find-inp">
+                <div class="find-go"> <i class="fa-solid fa-magnifying-glass"></i> </div>
+            </div>
+            <div class="tongue hov">
+                <div class="flag">🇺🇸</div> <span class="tongue-txt">EN</span> <i
+                    class="fa-solid fa-caret-down arr"></i>
+            </div>
+            <div class="user hov">
+                <p class="sm">Hello, sign in</p>
+                <div class="lg"> <span>Account & Lists</span> <i class="fa-solid fa-caret-down arr"></i> </div>
+            </div>
+            <div class="ret hov">
+                <p class="sm">Returns</p>
+                <p class="lg">& Orders</p>
+            </div>
+            <div class="bag hov">
+                <div class="bag-wrap"> <span class="bag-num">0</span> <i class="fa-solid fa-cart-shopping bag-ico"></i>
+                </div> <span class="bag-txt">Cart</span>
+            </div>
+        </div>
+        <div class="bar">
+            <div class="bar-all hov"> <i class="fa-solid fa-bars"></i> <span>All</span> </div>
+            <div class="bar-links">
+                <p class="hov">Today's Deals</p>
+                <p class="hov">Gift Cards</p>
+                <p class="hov">Sell</p>
+                <p class="hov">Registry</p>
+                <p class="hov">Prime Video</p>
+                <p class="hov">Customer Service</p>
+            </div>
+        </div>
+    </header> <!-- Hero Slider --> <swiper-container class="hero" init="false" navigation="true" pagination="true">
+        <swiper-slide>
+            <div class="hero-pic"> <img src="./assets/619geyiQI5L._SX3000_.jpg" alt="Kitchen" /> </div>
+        </swiper-slide> <swiper-slide>
+            <div class="hero-pic"> <img src="./assets/61Yx5-N155L._SX3000_.jpg" alt="Beauty" /> </div>
+        </swiper-slide> <swiper-slide>
+            <div class="hero-pic"> <img src="./assets/71QcgptqadL._SX3000_.jpg" alt="Gaming" /> </div>
+        </swiper-slide> <swiper-slide>
+            <div class="hero-pic"> <img src="./assets/71qcoYgEhzL._SX3000_.jpg" alt="Home" /> </div>
+        </swiper-slide> </swiper-container> <!-- Main Content -->
+    <div class="main"> <!-- Top Row -->
+        <div class="top">
+            <div class="card card-a">
+                <h2>Grilling must-haves for Dads</h2>
+                <div class="inner">
+                    <div class="cell">
+                        <div class="pic"><img src="./assets/81deorstoEL._AC_SY200_.jpg"
+                                alt="Grilling pans"></div> <span>Grilling pans</span>
+                    </div>
+                    <div class="cell">
+                        <div class="pic bg-dots"><img src="./assets/81deorstoEL._AC_SY200_.jpg"
+                                alt="Aprons"></div> <span>Aprons</span>
+                    </div>
+                    <div class="cell">
+                        <div class="pic"><img src="./assets/81deorstoEL._AC_SY200_.jpg"
+                                alt="Grilling tools"></div> <span>Grilling tools</span>
+                    </div>
+                    <div class="cell">
+                        <div class="pic bg-dots"><img src="./assets/81deorstoEL._AC_SY200_.jpg"
+                                alt="Gloves"></div> <span>Gloves</span>
+                    </div>
+                </div> <a href="#" class="see">Shop Father's Day gifts</a>
+            </div>
+            <div class="card card-b">
+                <h2>Top categories in Kitchen appliances</h2>
+                <div class="pic-main"> <img src="./assets/81deorstoEL._AC_SY200_.jpg"
+                        alt="Cooker"> </div> <span class="tag">Cooker</span>
+                <div class="trio">
+                    <div class="trio-cell">
+                        <div class="pic-sm"><img src="./assets/81deorstoEL._AC_SY200_.jpg"
+                                alt="Coffee"></div> <span>Coffee</span>
+                    </div>
+                    <div class="trio-cell">
+                        <div class="pic-sm"><img src="./assets/81deorstoEL._AC_SY200_.jpg"
+                                alt="Pots and Pans"></div> <span>Pots and P...</span>
+                    </div>
+                    <div class="trio-cell">
+                        <div class="pic-sm"><img src="./assets/81deorstoEL._AC_SY200_.jpg"
+                                alt="Kettles"></div> <span>Kettles</span>
+                    </div>
+                </div> <a href="#" class="see">Explore all products in Kitchen</a>
+            </div>
+            <div class="card card-a">
+                <h2>Shop Father's Day deals</h2>
+                <div class="inner">
+                    <div class="cell">
+                        <div class="pic bg-sky"><img src="./assets/81deorstoEL._AC_SY200_.jpg"
+                                alt="Apparel"></div> <span>Apparel</span>
+                    </div>
+                    <div class="cell">
+                        <div class="pic bg-sky"><img src="./assets/81deorstoEL._AC_SY200_.jpg"
+                                alt="Personal Care"></div> <span>Personal Care</span>
+                    </div>
+                    <div class="cell">
+                        <div class="pic bg-sky"><img src="./assets/81deorstoEL._AC_SY200_.jpg"
+                                alt="Tech"></div> <span>Tech</span>
+                    </div>
+                    <div class="cell">
+                        <div class="pic bg-sky"><img src="./assets/81deorstoEL._AC_SY200_.jpg"
+                                alt="Shoes"></div> <span>Shoes</span>
+                    </div>
+                </div> <a href="#" class="see">Explore more gifts</a>
+            </div>
+        </div> <!-- Slider 1 -->
+        <div class="strip">
+            <h2>International top sellers in Home</h2>
+            <div class="strip-wrap"> <button class="btn left" id="prev1">&#10094;</button>
+                <div class="view">
+                    <div class="rail" id="track1">
+                        <div class="tile"><img
+                                src="./assets/81deorstoEL._AC_SY200_.jpg"
+                                alt="Mattress Encasement"></div>
+                        <div class="tile"><img src="./assets/81deorstoEL._AC_SY200_.jpg"
+                                alt="Bath Mat"></div>
+                        <div class="tile"><img src="./assets/81deorstoEL._AC_SY200_.jpg" alt="Color Remover"></div>
+                        <div class="tile"><img src="./assets/81deorstoEL._AC_SY200_.jpg" alt="Window Film"></div>
+                        <div class="tile"><img
+                                src="./assets/81deorstoEL._AC_SY200_.jpg"
+                                alt="Acrylic Markers"></div>
+                        <div class="tile"><img src="./assets/81deorstoEL._AC_SY200_.jpg"
+                                alt="Storage Box"></div>
+                        <div class="tile"><img
+                                src="./assets/81deorstoEL._AC_SY200_.jpg"
+                                alt="Desk Organizer"></div>
+                        <div class="tile"><img
+                                src="./assets/81deorstoEL._AC_SY200_.jpg"
+                                alt="Desk Organizer"></div>
+                    </div>
+                </div> <button class="btn right" id="next1">&#10095;</button>
+            </div>
+            <div class="scroll">
+                <div class="thumb" id="bar1"></div>
+            </div>
+        </div> <!-- Slider 2 -->
+        <div class="strip">
+            <h2>International top sellers in Home</h2>
+            <div class="strip-wrap"> <button class="btn left" id="prev2">&#10094;</button>
+                <div class="view">
+                    <div class="rail" id="track2">
+                        <div class="tile"><img src="./assets/81deorstoEL._AC_SY200_.jpg" alt="Mattress Encasement">
+                        </div>
+                        <div class="tile"><img src="./assets/81deorstoEL._AC_SY200_.jpg" alt="Bath Mat"></div>
+                        <div class="tile"><img
+                                src="./assets/81deorstoEL._AC_SY200_.jpg"
+                                alt="Color Remover"></div>
+                        <div class="tile"><img src="./assets/81deorstoEL._AC_SY200_.jpg"
+                                alt="Window Film"></div>
+                        <div class="tile"><img
+                                src="./assets/81deorstoEL._AC_SY200_.jpg"
+                                alt="Acrylic Markers"></div>
+                        <div class="tile"><img src="./assets/81deorstoEL._AC_SY200_.jpg"
+                                alt="Storage Box"></div>
+                        <div class="tile"><img
+                                src="./assets/81deorstoEL._AC_SY200_.jpg"
+                                alt="Desk Organizer"></div>
+                        <div class="tile"><img
+                                src="./assets/81deorstoEL._AC_SY200_.jpg"
+                                alt="Desk Organizer"></div>
+                    </div>
+                </div> <button class="btn right" id="next2">&#10095;</button>
+            </div>
+            <div class="scroll">
+                <div class="thumb" id="bar2"></div>
+            </div>
+        </div> <!-- Quad Row 1 -->
+        <div class="quad">
+            <div class="card card-c">
+                <h2 class="head">Gaming merchandise</h2>
+                <div class="inner">
+                    <div class="cell">
+                        <div class="pic-frame"><img src="./assets/81deorstoEL._AC_SY200_.jpg"
+                                alt="Apparel"></div> <span class="tag">Apparel</span>
+                    </div>
+                    <div class="cell">
+                        <div class="pic-frame"><img src="./assets/81deorstoEL._AC_SY200_.jpg"
+                                alt="Hats"></div> <span class="tag">Hats</span>
+                    </div>
+                    <div class="cell">
+                        <div class="pic-frame"><img src="./assets/81deorstoEL._AC_SY200_.jpg"
+                                alt="Action figures"></div> <span class="tag">Action figures</span>
+                    </div>
+                    <div class="cell">
+                        <div class="pic-frame"><img src="./assets/81deorstoEL._AC_SY200_.jpg"
+                                alt="Mugs"></div> <span class="tag">Mugs</span>
+                    </div>
+                </div> <a href="#" class="see">See more</a>
+            </div>
+            <div class="card card-c">
+                <h2 class="head">Most-loved travel essentials</h2>
+                <div class="inner">
+                    <div class="cell">
+                        <div class="pic-frame bg-sage"><img
+                                src="./assets/81deorstoEL._AC_SY200_.jpg" alt="Backpacks">
+                        </div> <span class="tag">Backpacks</span>
+                    </div>
+                    <div class="cell">
+                        <div class="pic-frame bg-sage"><img
+                                src="./assets/81deorstoEL._AC_SY200_.jpg" alt="Suitcases">
+                        </div> <span class="tag">Suitcases</span>
+                    </div>
+                    <div class="cell">
+                        <div class="pic-frame bg-sage"><img
+                                src="./assets/81deorstoEL._AC_SY200_.jpg" alt="Accessories">
+                        </div> <span class="tag">Accessories</span>
+                    </div>
+                    <div class="cell">
+                        <div class="pic-frame bg-sage"><img
+                                src="./assets/81deorstoEL._AC_SY200_.jpg" alt="Handbags">
+                        </div> <span class="tag">Handbags</span>
+                    </div>
+                </div> <a href="#" class="see">Discover more</a>
+            </div>
+            <div class="card card-c">
+                <h2 class="head">Have more fun with family</h2>
+                <div class="inner">
+                    <div class="cell">
+                        <div class="pic-frame bg-peach"><img
+                                src="./assets/81deorstoEL._AC_SY200_.jpg"
+                                alt="Outdoor Play Sets"></div> <span class="tag">Outdoor Play Sets</span>
+                    </div>
+                    <div class="cell">
+                        <div class="pic-frame bg-peach"><img
+                                src="./assets/81deorstoEL._AC_SY200_.jpg"
+                                alt="Learning Toys"></div> <span class="tag">Learning Toys</span>
+                    </div>
+                    <div class="cell">
+                        <div class="pic-frame bg-peach"><img
+                                src="./assets/81deorstoEL._AC_SY200_.jpg"
+                                alt="Action Figures"></div> <span class="tag">Action Figures</span>
+                    </div>
+                    <div class="cell">
+                        <div class="pic-frame bg-peach"><img
+                                src="./assets/81deorstoEL._AC_SY200_.jpg"
+                                alt="Pretend Play Toys"></div> <span class="tag">Pretend Play Toys</span>
+                    </div>
+                </div> <a href="#" class="see">See more</a>
+            </div>
+            <div class="card card-c">
+                <h2 class="head">Most-loved watches</h2>
+                <div class="inner">
+                    <div class="cell">
+                        <div class="pic-frame bg-watch"><img
+                                src="./assets/81deorstoEL._AC_SY200_.jpg" alt="Women"></div>
+                        <span class="tag">Women</span>
+                    </div>
+                    <div class="cell">
+                        <div class="pic-frame bg-watch"><img
+                                src="./assets/81deorstoEL._AC_SY200_.jpg" alt="Men"></div>
+                        <span class="tag">Men</span>
+                    </div>
+                    <div class="cell">
+                        <div class="pic-frame bg-watch"><img
+                                src="./assets/81deorstoEL._AC_SY200_.jpg" alt="Girls"></div>
+                        <span class="tag">Girls</span>
+                    </div>
+                    <div class="cell">
+                        <div class="pic-frame bg-watch"><img
+                                src="./assets/81deorstoEL._AC_SY200_.jpg" alt="Boys"></div>
+                        <span class="tag">Boys</span>
+                    </div>
+                </div> <a href="#" class="see">Discover more</a>
+            </div>
+        </div> <!-- Slider 3 -->
+        <div class="strip">
+            <h2>Popular products in Beauty internationally</h2>
+            <div class="strip-wrap"> <button class="btn left" id="prev3">&#10094;</button>
+                <div class="view">
+                    <div class="rail" id="track3">
+                        <div class="tile"><img src="./assets/81deorstoEL._AC_SY200_.jpg" alt="Eucerin Baby Wash"></div>
+                        <div class="tile"><img src="./assets/81deorstoEL._AC_SY200_.jpg" alt="Colgate Wisp"></div>
+                        <div class="tile"><img src="./assets/81deorstoEL._AC_SY200_.jpg"
+                                alt="eos Body Lotion Lavender"></div>
+                        <div class="tile"><img src="./assets/81deorstoEL._AC_SY200_.jpg"
+                                alt="eos Body Lotion Coconut"></div>
+                        <div class="tile"><img src="./assets/81deorstoEL._AC_SY200_.jpg"
+                                alt="Anua Cream"></div>
+                        <div class="tile"><img src="./assets/81deorstoEL._AC_SY200_.jpg"
+                                alt="Skincare Device Set"></div>
+                        <div class="tile"><img src="./assets/81deorstoEL._AC_SY200_.jpg"
+                                alt="Pink Wand"></div>
+                        <div class="tile"><img src="./assets/81deorstoEL._AC_SY200_.jpg"
+                                alt="Just For Men"></div>
+                        <div class="tile"><img src="./assets/81deorstoEL._AC_SY200_.jpg"
+                                alt="Neutrogena Sunscreen"></div>
+                    </div>
+                </div> <button class="btn right" id="next3">&#10095;</button>
+            </div>
+            <div class="scroll">
+                <div class="thumb" id="bar3"></div>
+            </div>
+        </div> <!-- Slider 4 -->
+        <div class="strip">
+            <h2>International top sellers in Kitchen</h2>
+            <div class="strip-wrap"> <button class="btn left" id="prev4">&#10094;</button>
+                <div class="view">
+                    <div class="rail" id="track4">
+                        <div class="tile"><img src="./assets/81deorstoEL._AC_SY200_.jpg" alt="Kitchen Item 1"></div>
+                        <div class="tile"><img src="./assets/81deorstoEL._AC_SY200_.jpg"
+                                alt="Kitchen Item 2"></div>
+                        <div class="tile"><img src="./assets/81deorstoEL._AC_SY200_.jpg"
+                                alt="Kitchen Item 3"></div>
+                        <div class="tile"><img src="./assets/81deorstoEL._AC_SY200_.jpg"
+                                alt="Kitchen Item 4"></div>
+                        <div class="tile"><img src="./assets/81deorstoEL._AC_SY200_.jpg"
+                                alt="Kitchen Item 5"></div>
+                        <div class="tile"><img src="./assets/81deorstoEL._AC_SY200_.jpg"
+                                alt="Kitchen Item 6"></div>
+                        <div class="tile"><img src="./assets/81deorstoEL._AC_SY200_.jpg"
+                                alt="Kitchen Item 7"></div>
+                    </div>
+                </div> <button class="btn right" id="next4">&#10095;</button>
+            </div>
+            <div class="scroll">
+                <div class="thumb" id="bar4"></div>
+            </div>
+        </div> <!-- Quad Row 2 -->
+        <div class="quad">
+            <div class="card card-c">
+                <h2 class="head">Gaming merchandise</h2>
+                <div class="inner">
+                    <div class="cell">
+                        <div class="pic-frame"><img src="./assets/81deorstoEL._AC_SY200_.jpg"
+                                alt="Apparel"></div> <span class="tag">Apparel</span>
+                    </div>
+                    <div class="cell">
+                        <div class="pic-frame"><img src="./assets/81deorstoEL._AC_SY200_.jpg"
+                                alt="Hats"></div> <span class="tag">Hats</span>
+                    </div>
+                    <div class="cell">
+                        <div class="pic-frame"><img src="./assets/81deorstoEL._AC_SY200_.jpg"
+                                alt="Action figures"></div> <span class="tag">Action figures</span>
+                    </div>
+                    <div class="cell">
+                        <div class="pic-frame"><img src="./assets/81deorstoEL._AC_SY200_.jpg"
+                                alt="Mugs"></div> <span class="tag">Mugs</span>
+                    </div>
+                </div> <a href="#" class="see">See more</a>
+            </div>
+            <div class="card card-c">
+                <h2 class="head">Most-loved travel essentials</h2>
+                <div class="inner">
+                    <div class="cell">
+                        <div class="pic-frame bg-sage"><img
+                                src="./assets/81deorstoEL._AC_SY200_.jpg" alt="Backpacks">
+                        </div> <span class="tag">Backpacks</span>
+                    </div>
+                    <div class="cell">
+                        <div class="pic-frame bg-sage"><img
+                                src="./assets/81deorstoEL._AC_SY200_.jpg" alt="Suitcases">
+                        </div> <span class="tag">Suitcases</span>
+                    </div>
+                    <div class="cell">
+                        <div class="pic-frame bg-sage"><img
+                                src="./assets/81deorstoEL._AC_SY200_.jpg" alt="Accessories">
+                        </div> <span class="tag">Accessories</span>
+                    </div>
+                    <div class="cell">
+                        <div class="pic-frame bg-sage"><img
+                                src="./assets/81deorstoEL._AC_SY200_.jpg" alt="Handbags">
+                        </div> <span class="tag">Handbags</span>
+                    </div>
+                </div> <a href="#" class="see">Discover more</a>
+            </div>
+            <div class="card card-c">
+                <h2 class="head">Have more fun with family</h2>
+                <div class="inner">
+                    <div class="cell">
+                        <div class="pic-frame bg-peach"><img
+                                src="./assets/81deorstoEL._AC_SY200_.jpg"
+                                alt="Outdoor Play Sets"></div> <span class="tag">Outdoor Play Sets</span>
+                    </div>
+                    <div class="cell">
+                        <div class="pic-frame bg-peach"><img
+                                src="./assets/81deorstoEL._AC_SY200_.jpg"
+                                alt="Learning Toys"></div> <span class="tag">Learning Toys</span>
+                    </div>
+                    <div class="cell">
+                        <div class="pic-frame bg-peach"><img
+                                src="./assets/81deorstoEL._AC_SY200_.jpg"
+                                alt="Action Figures"></div> <span class="tag">Action Figures</span>
+                    </div>
+                    <div class="cell">
+                        <div class="pic-frame bg-peach"><img
+                                src="./assets/81deorstoEL._AC_SY200_.jpg"
+                                alt="Pretend Play Toys"></div> <span class="tag">Pretend Play Toys</span>
+                    </div>
+                </div> <a href="#" class="see">See more</a>
+            </div>
+            <div class="card card-c">
+                <h2 class="head">Most-loved watches</h2>
+                <div class="inner">
+                    <div class="cell">
+                        <div class="pic-frame bg-watch"><img
+                                src="./assets/81deorstoEL._AC_SY200_.jpg" alt="Women"></div>
+                        <span class="tag">Women</span>
+                    </div>
+                    <div class="cell">
+                        <div class="pic-frame bg-watch"><img
+                                src="./assets/81deorstoEL._AC_SY200_.jpg" alt="Men"></div>
+                        <span class="tag">Men</span>
+                    </div>
+                    <div class="cell">
+                        <div class="pic-frame bg-watch"><img
+                                src="./assets/81deorstoEL._AC_SY200_.jpg" alt="Girls"></div>
+                        <span class="tag">Girls</span>
+                    </div>
+                    <div class="cell">
+                        <div class="pic-frame bg-watch"><img
+                                src="./assets/81deorstoEL._AC_SY200_.jpg" alt="Boys"></div>
+                        <span class="tag">Boys</span>
+                    </div>
+                </div> <a href="#" class="see">Discover more</a>
+            </div>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@12/swiper-element-bundle.min.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
