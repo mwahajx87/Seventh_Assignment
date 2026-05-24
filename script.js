@@ -76,4 +76,18 @@ makeSlide('track1', 'prev1', 'next1', 'bar1');
 makeSlide('track2', 'prev2', 'next2', 'bar2'); 
 makeSlide('track3', 'prev3', 'next3', 'bar3'); 
 makeSlide('track4', 'prev4', 'next4', 'bar4');
+
+var backToTop = document.getElementById('backToTop');
+if (backToTop) {
+    backToTop.addEventListener('click', function () {
+        window.scrollTo({ top: 0, behavior: 'smooth' });
+    });
+    backToTop.addEventListener('keydown', function (event) {
+        if (event.key === 'Enter' || event.key === ' ') {
+            event.preventDefault();
+            window.scrollTo({ top: 0, behavior: 'smooth' });
+        }
+    });
+}
+
 randomizeNonSwiperImages();
