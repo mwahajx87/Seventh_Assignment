@@ -420,15 +420,15 @@ body {
 }
 
 .pic img,
-.pic-frame img {
-    max-width: 100%;
-    max-height: 100%;
-    object-fit: contain;
+.pic-frame img,
+.pic-sm img,
+.tile img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
 
 .pic-frame img {
-    max-width: 90%;
-    max-height: 90%;
     transition: transform 0.2s ease;
 }
 
@@ -500,12 +500,6 @@ body {
     cursor: pointer;
 }
 
-.pic-sm img {
-    max-width: 100%;
-    max-height: 100%;
-    object-fit: contain;
-}
-
 /* Quad Row */
 .quad {
     display: flex;
@@ -561,12 +555,6 @@ body {
     align-items: center;
     justify-content: center;
     cursor: pointer;
-}
-
-.tile img {
-    max-width: 100%;
-    max-height: 100%;
-    object-fit: contain;
 }
 
 /* Buttons */
