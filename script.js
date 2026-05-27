@@ -1,7 +1,8 @@
 //Theme toggle 
 var themeBtn = document.getElementById('themeBtn'); 
 var themeIco = document.getElementById('themeIco'); 
-themeBtn.addEventListener('click', function () {
+if (themeBtn && themeIco) {
+  themeBtn.addEventListener('click', function () {
      document.body.classList.toggle('dark'); 
      if (document.body.classList.contains('dark')) { 
         themeIco.classList.remove('fa-sun'); 
@@ -10,7 +11,8 @@ themeBtn.addEventListener('click', function () {
         themeIco.classList.remove('fa-moon'); 
         themeIco.classList.add('fa-sun');
      } 
-    }); 
+    });
+} 
     // Swiper init 
 var hero = document.querySelector('.hero'); 
 if (hero && hero.initialize) { 
@@ -22,8 +24,10 @@ function makeSlide(trackId, prevId, nextId, barId) {
     var prevBtn = document.getElementById(prevId); 
     var nextBtn = document.getElementById(nextId); 
     var bar = document.getElementById(barId); 
-    if (!track) return; var view = track.parentElement; 
-    var step = 212; nextBtn.addEventListener('click', function () { 
+    if (!track || !prevBtn || !nextBtn || !bar) return; 
+    var view = track.parentElement; 
+    var step = 300; 
+    nextBtn.addEventListener('click', function () { 
         view.scrollLeft += step; 
     }); 
     prevBtn.addEventListener('click', function () { 
@@ -47,7 +51,7 @@ function makeSlide(trackId, prevId, nextId, barId) {
     moveBar(); 
 }
 
-function randomizeNonSwiperImages() {
+function randomizeImages() {
     var assets = [
         './assets/619geyiQI5L._SX3000_.jpg',
         './assets/61Yx5-N155L._SX3000_.jpg',
@@ -90,4 +94,4 @@ if (backToTop) {
     });
 }
 
-randomizeNonSwiperImages();
+randomizeImages();
